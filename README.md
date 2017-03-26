@@ -1,0 +1,2 @@
+# squidstat
+squistat project
