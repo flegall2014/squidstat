@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/ico-run.png</file>
+        <file>theme/Theme_Default.css</file>
+        <file>qml/Spinner.qml</file>
+        <file>assets/ico-spinner-select.png</file>
+        <file>assets/ico-spinner-bg.png</file>
+        <file>qml/qmldir</file>
+        <file>qml/Theme.qml</file>
+        <file>qml/StandardButton.qml</file>
+        <file>qml/StandardLabel.qml</file>
+        <file>qml/GroupLabel.qml</file>
+        <file>qml/StandardRadioButton.qml</file>
+        <file>qml/Group.qml</file>
+        <file>qml/StandardToggleButton.qml</file>
+        <file>assets/ico-graph.png</file>
+        <file>qml/StandardSpinBox.qml</file>
+        <file>qml/CockpitView.qml</file>
+        <file>qml/StandardTextField.qml</file>
+        <file>assets/ico-open.png</file>
+        <file>qml/StandardIntensityWidget.qml</file>
+        <file>qml/StandardFilePicker.qml</file>
+        <file>qml/StandardTextImageButton.qml</file>
+        <file>qml/StandardImageButton.qml</file>
+        <file>qml/StandardComboBox.qml</file>
+        <file>assets/ico-information.png</file>
+    </qresource>
+</RCC>
