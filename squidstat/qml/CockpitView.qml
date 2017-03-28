@@ -332,6 +332,7 @@ Rectangle {
                     function updateValue() {
                         text = Math.round((parseFloat(workingElectrodeField.text) - parseFloat(counterElectrodeField.text))*1000)/1000
                     }
+                    readOnly: true
                     Component.onCompleted: updateValue()
                 }
 
@@ -363,7 +364,10 @@ Rectangle {
                     anchors.verticalCenter: currentField.verticalCenter
                     model: Theme.intensityUnitModel
                     currentIndex: controller.currentValueUnit
-                    onCurrentIndexChanged: controller.currentValueUnit = currentIndex
+                    onCurrentIndexChanged: {
+                        if (controller.currentValueUnit !== currentIndex)
+                            controller.currentValueUnit = currentIndex
+                    }
                 }
 
                 // Redox state

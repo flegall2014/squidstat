@@ -15,6 +15,7 @@ ComboBox {
             font.family: Theme.mainFontFamily
             color: Theme.mainFontColor
             text: control.currentText
+            font.pixelSize: Theme.comboFontSize
         }
     }
 }

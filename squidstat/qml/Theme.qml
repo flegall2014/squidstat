@@ -32,6 +32,7 @@ Item {
     readonly property string redoxStateLabel: qsTr("Redox state")
     readonly property string openCircuitLabel: qsTr("Open circuit")
     readonly property string voltageUnit: qsTr("(V)")
+    readonly property string cockpitViewFilePickerTitle: qsTr("File save location")
 
     // Colors
     readonly property color mainBackgroundColor: "#333"
@@ -43,6 +44,7 @@ Item {
     readonly property string mainFontFamily: "Comic Sans MS"
     readonly property int groupTitleFontSize: 24
     readonly property int widgetFontSize: 16
+    readonly property int comboFontSize: 16
 
     // Sizes
     readonly property int standardWidgetWidth: 100

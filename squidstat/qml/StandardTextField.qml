@@ -11,6 +11,7 @@ Item {
     property alias validator: textField.validator
     property double minimum: -100
     property double maximum: 100
+    property alias readOnly: textField.readOnly
     width: Theme.standardTextFieldWidth
     height: Theme.standardWidgetHeight
 
